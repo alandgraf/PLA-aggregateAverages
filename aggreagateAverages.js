@@ -1,4 +1,4 @@
-ifunction onOpen() {
+function onOpen() {
   // adds menu to update or refresh data
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var menuEntries = [ {name: "Refresh Data", functionName: "runUpdate"}];
